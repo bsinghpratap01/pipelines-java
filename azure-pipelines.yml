@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  java-local: java-agent
+  name: java-pool
 
 steps:
 - task: Maven@3
